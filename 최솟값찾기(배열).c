@@ -5,7 +5,6 @@
 
 int main() {
     
-    srand(time(NULL));
     int prices[SIZE] = {};
     int min, i, index;
     for(i=0;i<SIZE;i++){
