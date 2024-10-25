@@ -19,9 +19,7 @@ int main() {
             B[i][j] = rand() % 10;
             printf("%d ", A[i][j]);
             C[i][j] = A[i][j] + B[i][j];
-            tmp += A[i][j] * B[j][i];
         }
-        D[i][j] = tmp;
         printf("\n");
     }
     printf("\n");
