@@ -10,13 +10,14 @@ int main() {
     for(i=0;i<SIZE;i++){
         prices[i] = rand() % 10;
     }
+    
+    min = prices[0];
     for(i=0;i<SIZE;i++){
         if(prices[i] < min){
             min = prices[i];
             index = i;
         }
     }
-    min = prices[0];
     
     printf("[");
     for(i=0;i<SIZE;i++){
